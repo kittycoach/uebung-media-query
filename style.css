@@ -19,7 +19,7 @@ html, body{
 .card{
 	border: 1px black dotted;
 	position: relative;
-	
+
 }
 
 .card img{
@@ -41,3 +41,21 @@ html, body{
 
 }
 
+
+@media (min-width: 1024px) {
+  .row{
+  display: flex;
+}
+}
+
+@media (min-width: 1280px) {
+  h1{
+  color: red;
+	font-size: 32px;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+body{
+	background: black;
+ }
+ }
